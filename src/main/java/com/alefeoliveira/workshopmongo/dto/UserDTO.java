@@ -2,8 +2,6 @@ package com.alefeoliveira.workshopmongo.dto;
 
 import java.io.Serializable;
 
-import org.springframework.data.annotation.Id;
-
 import com.alefeoliveira.workshopmongo.domain.User;
 
 public class UserDTO implements Serializable{
@@ -21,6 +19,7 @@ public class UserDTO implements Serializable{
 		name =  obj.getName();
 		email =  obj.getEmail();
 	}
+	
 
 	public String getId() {
 		return id;
